@@ -7,8 +7,7 @@ export default function App() {
     <Router>
       <Route path="/home" component={Home}/>
       <Route path="/setting" component={Setting}/>
-      <Link to="/home">首页</Link>
-      <Link to="/setting">设置</Link>
+      <Link to="/home">首页</Link> - <Link to="/setting">设置</Link>
     </Router>
   )
 }
